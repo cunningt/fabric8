@@ -1248,6 +1248,7 @@
                                   <include>org.jboss.shrinkwrap*:*</include>
                                   <include>org.assertj*:*</include>
 
+                                  <include>com.google.guava:guava</include>
                                   <include>me.snowdrop:*</include>
 
                                   <include>xml-apis:xml-apis</include>
@@ -1465,6 +1466,7 @@
                                           <include>*:*</include>
                                       </includes>
                                       <excludes>
+                                          <exclude>com.google.guava:guava</exclude>
                                           <exclude>org.slf4j:*</exclude>
                                           <exclude>org.springframework:*</exclude>
                                           <exclude>org.springframework.boot:*</exclude>
