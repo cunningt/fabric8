@@ -1282,6 +1282,8 @@
                                   <include>org.fusesource:camel-sap</include>
                                   <include>org.fusesource:camel-sap-starter</include>
 
+
+                                  <include>com.fasterxml.jackson.*:jackson-databind</include>
                                   <include>org.apache.cxf:cxf-spring-boot-starter-jaxrs</include>
                                   <include>org.apache.cxf:cxf-spring-boot-starter-jaxws</include>
                                   <include>org.apache.cxf:cxf-rt-rs-service-description-swagger</include>
@@ -1346,10 +1348,9 @@
                                           <include>org.apache.commons:commons-dbcp2</include>
                                           <include>commons-pool:*</include>
 
+                                          <include>com.fasterxml.jackson.*:*</include>
                                           <include>com.github.ben-manes.caffeine:caffeine</include>
                                           <include>com.datastax.cassandra:*</include>
-
-                                          <include>com.fasterxml.jackson.*:*</include>
 
                                           <include>com.google.code.gson:*</include>
                                           <include>javax.servlet:javax.servlet-api</include>
@@ -1383,6 +1384,7 @@
                                           <exclude>org.assertj*:*</exclude>
                                           <exclude>org.slf4j:*</exclude>
                                           <exclude>junit:junit</exclude>
+                                          <exclude>com.fasterxml.jackson.*:jackson-databind</exclude>
 
                                           <!-- Out of scope sb starters -->
                                           <exclude>org.springframework.boot:spring-boot-starter-aop</exclude>
